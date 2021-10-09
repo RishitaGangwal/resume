@@ -1,0 +1,92 @@
+/** Cascading Style Sheets **/
+body {
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  main {
+    background-color: #d6deeb;
+    height: 100vh;
+    display: flex;
+  }
+  
+  h1 {
+    color: #18121c;
+    font-size: 32px;
+    margin-bottom: 0px;
+    /* border:1px solid red; */
+  }
+  
+  p {
+    color: #000000;
+    font-size: 15px;
+    margin-top: 2rem;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  
+
+  img {
+    border-radius: 50%;
+  }
+  
+  .profile {
+    background-color: #fff;
+    width: 25%;
+    padding: 5rem 2rem 1rem 2rem;
+    text-align: center;
+  }
+
+  .sec-2 {
+    
+    margin: 1rem 2rem 1rem 2rem;
+    text-align: left;
+  }
+
+  .social-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+  }
+  
+  .footer {
+    background-color: rgb(196, 207, 199);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .social {
+    padding: 5px 10px 20px 10px;
+    width: 35px;
+    height: 35px;
+}
+  
+  .connect {
+    font-size: 1.75rem;
+    font-weight: bolder;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+table, th, td {
+  border:1px solid black;
+  padding: 20px;
+  font-size: 20px;
+}
+.contact {
+    text-align: left;
+    font-size: large;
+}
+.icon {
+    display: flex;
+
+}
+.mail, .git, .ig, .ln {
+    margin: 11px;
+    padding: 20px;
+    font-size: 40px;
+
+}
